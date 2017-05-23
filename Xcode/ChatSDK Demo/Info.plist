@@ -4,14 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>two_factor_auth_server_path</key>
-	<string>http://http://twofactorauth.chatcatapp.com</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbauth2</string>
-	</array>
 	<key>CFBundleDisplayName</key>
-	<string>Chat SDK</string>
+	<string>Beep</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -19,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>Beep</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -59,6 +53,12 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>648056098576150</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -84,8 +84,6 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>FacebookAppID</key>
-	<string>648056098576150</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -109,28 +107,28 @@
 		<key>anonymous</key>
 		<dict>
 			<key>enabled</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>backendless</key>
 		<dict>
 			<key>app_id</key>
-			<string>AE35C50E-1AAB-2504-FF20-954F03262700</string>
+			<string>D7E13C87-A197-F544-FF09-64C81F1C7400</string>
 			<key>app_secret</key>
-			<string>A6A59449-5B5A-8F18-FF83-4822E4492A00</string>
+			<string>6C242166-7B8D-7772-FF10-D5A4981D1A00</string>
 			<key>app_version</key>
 			<string>v1</string>
 		</dict>
 		<key>facebook</key>
 		<dict>
 			<key>app_id</key>
-			<string>648056098576150</string>
+			<string></string>
 		</dict>
 		<key>firebase</key>
 		<dict>
 			<key>root_path</key>
-			<string>firebase_v4_local_2</string>
+			<string>v_1</string>
 			<key>storage_path</key>
-			<string>gs://chat-sdk-v4.appspot.com</string>
+			<string>gs://beep-3e40a.appspot.com</string>
 		</dict>
 		<key>google</key>
 		<dict>
@@ -161,5 +159,7 @@
 			<string>HeISRl8w3uNcMoLtCexpSRP3NE0DHqbF6hS0B6YxNaVgsRRqU1</string>
 		</dict>
 	</dict>
+	<key>two_factor_auth_server_path</key>
+	<string>http://http://twofactorauth.chatcatapp.com</string>
 </dict>
 </plist>

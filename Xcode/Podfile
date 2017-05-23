@@ -14,7 +14,7 @@ target 'ChatSDK Demo' do
 #   pod "ChatSDKFirebase/AudioMessages", :path => "../../ChatSDK/ChatSDKFirebase"
 #   pod "ChatSDKFirebase/ContactBook", :path => "../../ChatSDK/ChatSDKFirebase"
 #   pod "ChatSDKFirebase/ReadReceipts", :path => "../../ChatSDK/ChatSDKFirebase"
-#   pod "ChatSDKFirebase/NearbyUsers", :path => "../../ChatSDK/ChatSDKFirebase"
+  pod "ChatSDKFirebase/NearbyUsers", :path => "../ChatSDKFirebase"
 
 #   pod "TwoFactorAuth", :path => "../../ChatSDK/TwoFactorAuth"
 
@@ -24,6 +24,6 @@ target 'ChatSDK Demo' do
 #   pod 'GoogleSignIn'
 #   pod 'TwitterKit'
 #   pod 'FBSDKLoginKit'
-#   pod 'Backendless'
+  pod 'Backendless'
 	
 end

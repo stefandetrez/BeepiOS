@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B183FF41ED31CB300B92EB9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2B183FEA1ED31CB300B92EB9 /* .gitkeep */; };
+		2B183FF51ED31CB300B92EB9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2B183FEC1ED31CB300B92EB9 /* .gitkeep */; };
+		2B183FF61ED31CB300B92EB9 /* BBackendless.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FEE1ED31CB300B92EB9 /* BBackendless.m */; };
+		2B183FF71ED31CB300B92EB9 /* BBackendlessPushHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF01ED31CB300B92EB9 /* BBackendlessPushHandler.m */; };
+		2B183FF81ED31CB300B92EB9 /* BBackendlessUploadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */; };
+		2B183FF91ED31CB300B92EB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF31ED31CB300B92EB9 /* README.md */; };
 		AC7777E9AC4696C5650C0624 /* Pods_ChatSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */; };
 		AC7BD99C1E0874B400C785EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99B1E0874B400C785EE /* main.m */; };
 		AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99E1E0874B400C785EE /* AppDelegate.m */; };
@@ -19,6 +25,15 @@
 
 /* Begin PBXFileReference section */
 		0A6C898A6E2363FFF39375AA /* Pods-ChatSDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatSDK Demo/Pods-ChatSDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		2B183FEA1ED31CB300B92EB9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2B183FEC1ED31CB300B92EB9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2B183FED1ED31CB300B92EB9 /* BBackendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBackendless.h; sourceTree = "<group>"; };
+		2B183FEE1ED31CB300B92EB9 /* BBackendless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBackendless.m; sourceTree = "<group>"; };
+		2B183FEF1ED31CB300B92EB9 /* BBackendlessPushHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBackendlessPushHandler.h; sourceTree = "<group>"; };
+		2B183FF01ED31CB300B92EB9 /* BBackendlessPushHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBackendlessPushHandler.m; sourceTree = "<group>"; };
+		2B183FF11ED31CB300B92EB9 /* BBackendlessUploadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBackendlessUploadHandler.h; sourceTree = "<group>"; };
+		2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBackendlessUploadHandler.m; sourceTree = "<group>"; };
+		2B183FF31ED31CB300B92EB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7BD9971E0874B400C785EE /* ChatSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7BD99B1E0874B400C785EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +61,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B183FE81ED31CB300B92EB9 /* Backendless */ = {
+			isa = PBXGroup;
+			children = (
+				2B183FE91ED31CB300B92EB9 /* Assets */,
+				2B183FEB1ED31CB300B92EB9 /* Classes */,
+				2B183FF31ED31CB300B92EB9 /* README.md */,
+			);
+			path = Backendless;
+			sourceTree = "<group>";
+		};
+		2B183FE91ED31CB300B92EB9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2B183FEA1ED31CB300B92EB9 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2B183FEB1ED31CB300B92EB9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B183FEC1ED31CB300B92EB9 /* .gitkeep */,
+				2B183FED1ED31CB300B92EB9 /* BBackendless.h */,
+				2B183FEE1ED31CB300B92EB9 /* BBackendless.m */,
+				2B183FEF1ED31CB300B92EB9 /* BBackendlessPushHandler.h */,
+				2B183FF01ED31CB300B92EB9 /* BBackendlessPushHandler.m */,
+				2B183FF11ED31CB300B92EB9 /* BBackendlessUploadHandler.h */,
+				2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		AC0BCADF675425D258C8F005 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +123,7 @@
 		AC7BD9991E0874B400C785EE /* ChatSDK Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2B183FE81ED31CB300B92EB9 /* Backendless */,
 				AC7BD9BE1E096E9000C785EE /* GoogleService-Info.plist */,
 				AC7BD99D1E0874B400C785EE /* AppDelegate.h */,
 				AC7BD99E1E0874B400C785EE /* AppDelegate.m */,
@@ -140,7 +188,7 @@
 				TargetAttributes = {
 					AC7BD9961E0874B400C785EE = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = P7RPLLCMTA;
+						DevelopmentTeam = 73843223RU;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -171,6 +219,8 @@
 			files = (
 				AC7BD9AA1E0874B400C785EE /* LaunchScreen.storyboard in Resources */,
 				AC7BD9BF1E096E9000C785EE /* GoogleService-Info.plist in Resources */,
+				2B183FF41ED31CB300B92EB9 /* .gitkeep in Resources */,
+				2B183FF51ED31CB300B92EB9 /* .gitkeep in Resources */,
 				AC7BD9A71E0874B400C785EE /* Assets.xcassets in Resources */,
 				AC7BD9A51E0874B400C785EE /* Main.storyboard in Resources */,
 			);
@@ -221,7 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -233,6 +283,10 @@
 			files = (
 				AC7BD9A21E0874B400C785EE /* ViewController.m in Sources */,
 				AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */,
+				2B183FF71ED31CB300B92EB9 /* BBackendlessPushHandler.m in Sources */,
+				2B183FF91ED31CB300B92EB9 /* README.md in Sources */,
+				2B183FF61ED31CB300B92EB9 /* BBackendless.m in Sources */,
+				2B183FF81ED31CB300B92EB9 /* BBackendlessUploadHandler.m in Sources */,
 				AC7BD99C1E0874B400C785EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +336,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -329,6 +384,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -353,12 +409,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7RPLLCMTA;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73843223RU;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "ChatSDK Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.deluge.Chat-SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = beep.stepps.beep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -369,12 +428,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7RPLLCMTA;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73843223RU;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "ChatSDK Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.deluge.Chat-SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = beep.stepps.beep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
