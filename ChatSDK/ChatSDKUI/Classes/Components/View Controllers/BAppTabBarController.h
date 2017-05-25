@@ -12,5 +12,6 @@
     UIViewController * _loginViewController;
 }
 
+//@property(nonatomic, strong) GADInterstitial *interstitial;
 
 @end

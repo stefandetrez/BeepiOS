@@ -28,6 +28,9 @@
 
 -(RXPromise *) pathOn: (NSString *) key callback: (void(^)(FIRDataSnapshot * snapshot)) callback {
     
+
+    
+    
     RXPromise * promise = [RXPromise new];
     
     // Check to see if the path has already been turned on

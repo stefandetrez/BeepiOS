@@ -27,6 +27,11 @@
 //#import <ChatSDKModules/StickerMessages.h>
 
 #import "BBackendlessPushHandler.h"
+
+#import "BBeepTabBarController.h"
+
+@import Firebase;
+
 //#import "BBackendlessUploadHandler.h"
 
 //#import "BFirebaseSocialLoginHandler.h"
@@ -72,7 +77,7 @@
     //[BNetworkManager sharedManager].a.auth.challengeViewController = _verifyViewController;
 
     // This is the main view that contains the tab bar
-    UIViewController * mainViewController = [[BAppTabBarController alloc] initWithNibName:Nil bundle:Nil];
+    UIViewController * mainViewController = [[BBeepTabBarController alloc] initWithNibName:Nil bundle:Nil];
 
     // Set the login screen
     [BNetworkManager sharedManager].a.auth.challengeViewController = [[BLoginViewController alloc] initWithNibName:Nil bundle:Nil];
@@ -81,6 +86,9 @@
     BBackendlessPushHandler * pushHandler = [[BBackendlessPushHandler alloc] initWithAppKey:[BSettingsManager backendlessAppId] secretKey:[BSettingsManager backendlessSecretKey] versionKey:[BSettingsManager backendlessVersionKey]];
     [[BNetworkManager sharedManager].a setPush:pushHandler];
     [[BNetworkManager sharedManager].a.push registerForPushNotificationsWithApplication:application launchOptions:launchOptions];
+    
+    // Initialize the Google Mobile Ads SDK.
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-3940256099942544~1458002511"];
     
     // Set the root view controller
     [self.window setRootViewController:mainViewController];

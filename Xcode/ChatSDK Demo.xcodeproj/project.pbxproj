@@ -13,6 +13,7 @@
 		2B183FF71ED31CB300B92EB9 /* BBackendlessPushHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF01ED31CB300B92EB9 /* BBackendlessPushHandler.m */; };
 		2B183FF81ED31CB300B92EB9 /* BBackendlessUploadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */; };
 		2B183FF91ED31CB300B92EB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF31ED31CB300B92EB9 /* README.md */; };
+		2BBCCD6E1ED5A2CB00E3DA01 /* BBeepTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */; };
 		AC7777E9AC4696C5650C0624 /* Pods_ChatSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */; };
 		AC7BD99C1E0874B400C785EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99B1E0874B400C785EE /* main.m */; };
 		AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99E1E0874B400C785EE /* AppDelegate.m */; };
@@ -34,6 +35,8 @@
 		2B183FF11ED31CB300B92EB9 /* BBackendlessUploadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBackendlessUploadHandler.h; sourceTree = "<group>"; };
 		2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBackendlessUploadHandler.m; sourceTree = "<group>"; };
 		2B183FF31ED31CB300B92EB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BBCCD6C1ED5A2CB00E3DA01 /* BBeepTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepTabBarController.h; path = Beep/BBeepTabBarController.h; sourceTree = "<group>"; };
+		2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepTabBarController.m; path = Beep/BBeepTabBarController.m; sourceTree = "<group>"; };
 		369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7BD9971E0874B400C785EE /* ChatSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7BD99B1E0874B400C785EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		2BBCCD6B1ED5A27400E3DA01 /* Beep */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCCD6C1ED5A2CB00E3DA01 /* BBeepTabBarController.h */,
+				2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */,
+			);
+			name = Beep;
+			sourceTree = "<group>";
+		};
 		AC0BCADF675425D258C8F005 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		AC7BD9991E0874B400C785EE /* ChatSDK Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2BBCCD6B1ED5A27400E3DA01 /* Beep */,
 				2B183FE81ED31CB300B92EB9 /* Backendless */,
 				AC7BD9BE1E096E9000C785EE /* GoogleService-Info.plist */,
 				AC7BD99D1E0874B400C785EE /* AppDelegate.h */,
@@ -281,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBCCD6E1ED5A2CB00E3DA01 /* BBeepTabBarController.m in Sources */,
 				AC7BD9A21E0874B400C785EE /* ViewController.m in Sources */,
 				AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */,
 				2B183FF71ED31CB300B92EB9 /* BBackendlessPushHandler.m in Sources */,

@@ -11,7 +11,6 @@
 #import <ChatSDKCore/ChatCore.h>
 #import <ChatSDKUI/ChatUI.h>
 
-
 #define bMessagesBadgeValueKey @"bMessagesBadgeValueKey"
 
 @interface BAppTabBarController ()
