@@ -13,7 +13,7 @@
 #import <ChatSDKUI/ChatUI.h>
 #import <ChatSDKFirebaseAdapter/ChatFirebaseAdapter.h>
 #import <ChatSDKCoreData/ChatCoreData.h>
-
+#import "BBeepLoginViewController.h"
 
 //#import <ChatSDKFirebase/NearbyUsers.h>
 //#import <ChatSDKFirebase/AudioMessages.h>
@@ -27,6 +27,9 @@
 //#import <ChatSDKModules/StickerMessages.h>
 
 #import "BBackendlessPushHandler.h"
+#import "BBeepInterfaceAdapter.h"
+#import "BBeepNearbyContactsViewController.h"
+#import <ChatSDKFirebase/BGeoFireManager.h>
 
 #import "BBeepTabBarController.h"
 
@@ -50,7 +53,7 @@
     [BNetworkManager sharedManager].a = [[BFirebaseNetworkAdapter alloc] init];
     
     // Set the default interface manager
-    [BInterfaceManager sharedManager].a = [[BDefaultInterfaceAdapter alloc] init];
+    [BInterfaceManager sharedManager].a = [[BBeepInterfaceAdapter alloc] init];
 
     [BStorageManager sharedManager].a = [[BCoreDataManager alloc] init];
 
@@ -62,8 +65,12 @@
     //[[[BVideoMessageModule alloc] init] activate];
     //[[[BAudioMessageModule alloc] init] activate];
     //[[[BReadReceiptsModule alloc] init] activate];
+
     //[[[BContactBookModule alloc] init] activate];
-    [[[BNearbyUsersModule alloc] init] activate];
+
+    [BNetworkManager sharedManager].a.nearbyUsers = [[BGeoFireManager alloc] init];
+    [[BInterfaceManager sharedManager].a addTabBarViewController: [[BBeepNearbyContactsViewController alloc] init] atIndex: 2];
+
     //[[[BStickerMessageModule alloc] init] activate];
     //[[[BKeyboardOverlayOptionsModule alloc] init] activate];
     
@@ -80,7 +87,7 @@
     UIViewController * mainViewController = [[BBeepTabBarController alloc] initWithNibName:Nil bundle:Nil];
 
     // Set the login screen
-    [BNetworkManager sharedManager].a.auth.challengeViewController = [[BLoginViewController alloc] initWithNibName:Nil bundle:Nil];
+    [BNetworkManager sharedManager].a.auth.challengeViewController = [[BBeepLoginViewController alloc] initWithNibName:Nil bundle:Nil];
     
     /* Backendless Push handler */
     BBackendlessPushHandler * pushHandler = [[BBackendlessPushHandler alloc] initWithAppKey:[BSettingsManager backendlessAppId] secretKey:[BSettingsManager backendlessSecretKey] versionKey:[BSettingsManager backendlessVersionKey]];

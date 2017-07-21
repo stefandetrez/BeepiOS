@@ -19,27 +19,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.interstitial = [self createAndLoadInterstitial];
+//    self.interstitial = [self createAndLoadInterstitial];
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
     
-    if (self.interstitial.isReady) {
-        [self.interstitial presentFromRootViewController:self];
-    } else {
-        NSLog(@"Ad wasn't ready");
-    }
+//    if (self.interstitial.isReady) {
+//        [self.interstitial presentFromRootViewController:self];
+//    } else {
+//        NSLog(@"Ad wasn't ready");
+//    }
 }
 
-- (GADInterstitial *)createAndLoadInterstitial {
-    GADInterstitial * interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3940256099942544/4411468910"];
-    interstitial.delegate = self;
-    [interstitial loadRequest:[GADRequest request]];
-    return interstitial;
-}
+//- (GADInterstitial *)createAndLoadInterstitial {
+//    GADInterstitial * interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3940256099942544/4411468910"];
+//    interstitial.delegate = self;
+//    [interstitial loadRequest:[GADRequest request]];
+//    return interstitial;
+//}
 
 - (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial {
-    self.interstitial = [self createAndLoadInterstitial];
+//    self.interstitial = [self createAndLoadInterstitial];
 }
 
 @end

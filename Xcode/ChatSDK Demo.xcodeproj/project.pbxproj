@@ -14,6 +14,15 @@
 		2B183FF81ED31CB300B92EB9 /* BBackendlessUploadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF21ED31CB300B92EB9 /* BBackendlessUploadHandler.m */; };
 		2B183FF91ED31CB300B92EB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B183FF31ED31CB300B92EB9 /* README.md */; };
 		2BBCCD6E1ED5A2CB00E3DA01 /* BBeepTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */; };
+		AC4082A71F0E9BE2001FDCA5 /* BBeepLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082A61F0E9BE2001FDCA5 /* BBeepLoginViewController.m */; };
+		AC4082AA1F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082A91F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.m */; };
+		AC4082AD1F0E9D45001FDCA5 /* web_hi_res_512@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4082AC1F0E9D45001FDCA5 /* web_hi_res_512@3x.png */; };
+		AC4082B11F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082B01F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.m */; };
+		AC4082B41F0EA051001FDCA5 /* BBeepPublicThreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082B31F0EA051001FDCA5 /* BBeepPublicThreadsViewController.m */; };
+		AC4082B71F0EA09F001FDCA5 /* BBeepContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082B61F0EA09F001FDCA5 /* BBeepContactsViewController.m */; };
+		AC4082BA1F0EA0F2001FDCA5 /* BBannerAdBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082B91F0EA0F2001FDCA5 /* BBannerAdBuilder.m */; };
+		AC4082BD1F0EA21E001FDCA5 /* BBeepProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082BC1F0EA21E001FDCA5 /* BBeepProfileTableViewController.m */; };
+		AC4082C01F0EA272001FDCA5 /* BBeepNearbyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4082BF1F0EA272001FDCA5 /* BBeepNearbyContactsViewController.m */; };
 		AC7777E9AC4696C5650C0624 /* Pods_ChatSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */; };
 		AC7BD99C1E0874B400C785EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99B1E0874B400C785EE /* main.m */; };
 		AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7BD99E1E0874B400C785EE /* AppDelegate.m */; };
@@ -38,6 +47,24 @@
 		2BBCCD6C1ED5A2CB00E3DA01 /* BBeepTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepTabBarController.h; path = Beep/BBeepTabBarController.h; sourceTree = "<group>"; };
 		2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepTabBarController.m; path = Beep/BBeepTabBarController.m; sourceTree = "<group>"; };
 		369A95ECCEDC395C4185D9A1 /* Pods_ChatSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4082A51F0E9BE2001FDCA5 /* BBeepLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepLoginViewController.h; path = Beep/BBeepLoginViewController.h; sourceTree = "<group>"; };
+		AC4082A61F0E9BE2001FDCA5 /* BBeepLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepLoginViewController.m; path = Beep/BBeepLoginViewController.m; sourceTree = "<group>"; };
+		AC4082A81F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepInterfaceAdapter.h; path = Beep/BBeepInterfaceAdapter.h; sourceTree = "<group>"; };
+		AC4082A91F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepInterfaceAdapter.m; path = Beep/BBeepInterfaceAdapter.m; sourceTree = "<group>"; };
+		AC4082AC1F0E9D45001FDCA5 /* web_hi_res_512@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web_hi_res_512@3x.png"; sourceTree = "<group>"; };
+		AC4082AE1F0E9DE2001FDCA5 /* BAdID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAdID.h; sourceTree = "<group>"; };
+		AC4082AF1F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepPrivateThreadsViewController.h; path = Beep/BBeepPrivateThreadsViewController.h; sourceTree = "<group>"; };
+		AC4082B01F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepPrivateThreadsViewController.m; path = Beep/BBeepPrivateThreadsViewController.m; sourceTree = "<group>"; };
+		AC4082B21F0EA051001FDCA5 /* BBeepPublicThreadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepPublicThreadsViewController.h; path = Beep/BBeepPublicThreadsViewController.h; sourceTree = "<group>"; };
+		AC4082B31F0EA051001FDCA5 /* BBeepPublicThreadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepPublicThreadsViewController.m; path = Beep/BBeepPublicThreadsViewController.m; sourceTree = "<group>"; };
+		AC4082B51F0EA09F001FDCA5 /* BBeepContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepContactsViewController.h; path = Beep/BBeepContactsViewController.h; sourceTree = "<group>"; };
+		AC4082B61F0EA09F001FDCA5 /* BBeepContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepContactsViewController.m; path = Beep/BBeepContactsViewController.m; sourceTree = "<group>"; };
+		AC4082B81F0EA0F2001FDCA5 /* BBannerAdBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBannerAdBuilder.h; path = Beep/BBannerAdBuilder.h; sourceTree = "<group>"; };
+		AC4082B91F0EA0F2001FDCA5 /* BBannerAdBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBannerAdBuilder.m; path = Beep/BBannerAdBuilder.m; sourceTree = "<group>"; };
+		AC4082BB1F0EA21E001FDCA5 /* BBeepProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepProfileTableViewController.h; path = Beep/BBeepProfileTableViewController.h; sourceTree = "<group>"; };
+		AC4082BC1F0EA21E001FDCA5 /* BBeepProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepProfileTableViewController.m; path = Beep/BBeepProfileTableViewController.m; sourceTree = "<group>"; };
+		AC4082BE1F0EA272001FDCA5 /* BBeepNearbyContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBeepNearbyContactsViewController.h; path = Beep/BBeepNearbyContactsViewController.h; sourceTree = "<group>"; };
+		AC4082BF1F0EA272001FDCA5 /* BBeepNearbyContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBeepNearbyContactsViewController.m; path = Beep/BBeepNearbyContactsViewController.m; sourceTree = "<group>"; };
 		AC7BD9971E0874B400C785EE /* ChatSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7BD99B1E0874B400C785EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC7BD99D1E0874B400C785EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,8 +126,26 @@
 		2BBCCD6B1ED5A27400E3DA01 /* Beep */ = {
 			isa = PBXGroup;
 			children = (
+				AC4082AB1F0E9D45001FDCA5 /* Resources */,
 				2BBCCD6C1ED5A2CB00E3DA01 /* BBeepTabBarController.h */,
 				2BBCCD6D1ED5A2CB00E3DA01 /* BBeepTabBarController.m */,
+				AC4082A51F0E9BE2001FDCA5 /* BBeepLoginViewController.h */,
+				AC4082A61F0E9BE2001FDCA5 /* BBeepLoginViewController.m */,
+				AC4082A81F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.h */,
+				AC4082A91F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.m */,
+				AC4082AE1F0E9DE2001FDCA5 /* BAdID.h */,
+				AC4082AF1F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.h */,
+				AC4082B01F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.m */,
+				AC4082B21F0EA051001FDCA5 /* BBeepPublicThreadsViewController.h */,
+				AC4082B31F0EA051001FDCA5 /* BBeepPublicThreadsViewController.m */,
+				AC4082B51F0EA09F001FDCA5 /* BBeepContactsViewController.h */,
+				AC4082B61F0EA09F001FDCA5 /* BBeepContactsViewController.m */,
+				AC4082B81F0EA0F2001FDCA5 /* BBannerAdBuilder.h */,
+				AC4082B91F0EA0F2001FDCA5 /* BBannerAdBuilder.m */,
+				AC4082BB1F0EA21E001FDCA5 /* BBeepProfileTableViewController.h */,
+				AC4082BC1F0EA21E001FDCA5 /* BBeepProfileTableViewController.m */,
+				AC4082BE1F0EA272001FDCA5 /* BBeepNearbyContactsViewController.h */,
+				AC4082BF1F0EA272001FDCA5 /* BBeepNearbyContactsViewController.m */,
 			);
 			name = Beep;
 			sourceTree = "<group>";
@@ -112,6 +157,14 @@
 				0A6C898A6E2363FFF39375AA /* Pods-ChatSDK Demo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC4082AB1F0E9D45001FDCA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC4082AC1F0E9D45001FDCA5 /* web_hi_res_512@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		AC7BD98E1E0874B400C785EE = {
@@ -233,6 +286,7 @@
 				AC7BD9AA1E0874B400C785EE /* LaunchScreen.storyboard in Resources */,
 				AC7BD9BF1E096E9000C785EE /* GoogleService-Info.plist in Resources */,
 				2B183FF41ED31CB300B92EB9 /* .gitkeep in Resources */,
+				AC4082AD1F0E9D45001FDCA5 /* web_hi_res_512@3x.png in Resources */,
 				2B183FF51ED31CB300B92EB9 /* .gitkeep in Resources */,
 				AC7BD9A71E0874B400C785EE /* Assets.xcassets in Resources */,
 				AC7BD9A51E0874B400C785EE /* Main.storyboard in Resources */,
@@ -284,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -294,12 +348,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4082BD1F0EA21E001FDCA5 /* BBeepProfileTableViewController.m in Sources */,
+				AC4082B41F0EA051001FDCA5 /* BBeepPublicThreadsViewController.m in Sources */,
+				AC4082A71F0E9BE2001FDCA5 /* BBeepLoginViewController.m in Sources */,
+				AC4082C01F0EA272001FDCA5 /* BBeepNearbyContactsViewController.m in Sources */,
 				2BBCCD6E1ED5A2CB00E3DA01 /* BBeepTabBarController.m in Sources */,
 				AC7BD9A21E0874B400C785EE /* ViewController.m in Sources */,
+				AC4082B11F0E9E5C001FDCA5 /* BBeepPrivateThreadsViewController.m in Sources */,
 				AC7BD99F1E0874B400C785EE /* AppDelegate.m in Sources */,
+				AC4082AA1F0E9C3D001FDCA5 /* BBeepInterfaceAdapter.m in Sources */,
+				AC4082BA1F0EA0F2001FDCA5 /* BBannerAdBuilder.m in Sources */,
 				2B183FF71ED31CB300B92EB9 /* BBackendlessPushHandler.m in Sources */,
 				2B183FF91ED31CB300B92EB9 /* README.md in Sources */,
 				2B183FF61ED31CB300B92EB9 /* BBackendless.m in Sources */,
+				AC4082B71F0EA09F001FDCA5 /* BBeepContactsViewController.m in Sources */,
 				2B183FF81ED31CB300B92EB9 /* BBackendlessUploadHandler.m in Sources */,
 				AC7BD99C1E0874B400C785EE /* main.m in Sources */,
 			);

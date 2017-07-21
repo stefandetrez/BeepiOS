@@ -70,6 +70,10 @@
         return image;
     }, Nil);
     
+    if(self.onLoad != Nil) {
+        self.onLoad();
+    }
+    
 }
 
 -(void) viewWillAppear:(BOOL)animated {

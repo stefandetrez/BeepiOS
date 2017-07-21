@@ -40,6 +40,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *phoneNumberField;
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
 @property (weak, nonatomic) IBOutlet UIButton *profilePictureButton;
+@property (nonatomic, readwrite, copy) void(^onLoad)();
 
 //@property (nonatomic, readwrite) id<PUserConnection> userConnection;
 @property (nonatomic, readwrite) id<PUser> user;

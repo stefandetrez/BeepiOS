@@ -8,6 +8,7 @@
 
 #import "BLocationManager.h"
 #import "GeoFire.h"
+
 #import "Firebase+Paths.h"
 #import "BNetworkManager.h"
 #import "BGeoFireManager.h"

@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'NearbyUsers' do |nu|
 
-    nu.source_files = ['NearbyUsers/Classes/**/*', 'NearbyUsers/geofire-objc/GeoFire/**/*']
+    nu.source_files = ['NearbyUsers/Classes/**/*', 'NearbyUsers/geofire-objc/**/*']
     nu.resource_bundles = {
       'ChatNearbyUsers' => ['NearbyUsers/Assets/**/*', 'NearbyUsers/Interface/**/*']
     }
